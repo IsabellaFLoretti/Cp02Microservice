@@ -1,0 +1,4 @@
+<div *ngFor="let animal of animals" [ngStyle]="{ 'background-color':animal.sexo == 'macho' ? ' blue' : 'pink' }">
+  <app-animal-item [animal]="animal"></app-animal-item>
+</div>
+</div>
